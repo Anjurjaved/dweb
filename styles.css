@@ -1,0 +1,195 @@
+html,body{
+   min-width: 1024px;
+}
+.wrapper{
+   background: gray;
+   border: 1px solid gray;
+   width: 100%;
+   margin: 0 auto;
+
+}
+/* 
+=========================================================
+Header Design
+=============================== ==========================
+ */
+
+.header{
+   height: 150px;
+   background: yellow;
+   text-align: center;
+   background: url('Hero-Image.jpg');
+   background-position: center center;
+  background-size: cover;
+   position: relative;
+}
+.logo img {
+   position: absolute;
+   top: 18%;
+   left: 5%;
+   z-index: 2;
+   border-top-right-radius: 32px;
+   border-top-left-radius: 32px;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 10px;
+}
+.header h1{
+   position: absolute;
+   left: 25%;
+   top: 25%;
+   z-index: 1;
+   color: white;
+}
+
+.header-over{
+   position: absolute;
+   content:"";
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.46);
+
+}
+
+/* 
+=========================================================
+Navbar Design
+=========================================================
+ */
+
+.navbar{
+   background: lightblue;
+}
+
+.navbar ul{
+   list-style-type: none;
+   margin: 0;
+   text-align: center;
+   padding: 1%;
+
+}
+
+.navbar ul li {
+   display: inline-block ;
+   margin: 1%;
+}
+
+.navbar ul li a{
+   text-decoration: none;
+   font-size: 21px;
+   border: 1px solid rgb(0, 0, 0);
+   padding: 2px 20px;
+   background: aliceblue;
+   border-radius: 15px;
+}
+
+.navbar ul li a:hover{
+   text-decoration: none;
+   font-size: 21px;
+   border: 1px solid rgb(0, 0, 0);
+   padding: 2px 20px;
+   background: rgb(0, 17, 142);
+   border-radius: 15px;
+   color: white;
+}
+.main{
+   background: brown;
+   display: flex;
+}
+
+/* 
+=========================================================
+Leftbar Design
+=============================== ==========================
+ */
+
+.leftbar{
+   background: rgb(255, 183, 183);
+   width: 25%;
+   min-height: 500px;
+   padding-left: 2%;
+}
+
+.leftbar ul{
+   list-style-type: none;
+
+}
+
+.leftbar ul li{
+   margin-top: 4%;
+
+}
+
+.leftbar ul li a{
+   font-size: 20px;
+   color: black;
+}
+
+.leftbar ul li a:hover{
+   color: red;
+}
+
+.content{
+   background: white;
+   width: 75%;
+   min-height: 500px;
+  
+}
+
+.content{
+   text-align: justify;
+   padding: 2%;
+}
+
+.content h1{
+   color: rgb(0, 122, 10);
+   text-decoration: underline gray double 1px;
+   text-underline-offset: 10px;
+}
+
+/* 
+=========================================================
+Footer Design
+=========================================================
+ */
+
+.footer{
+   background: aqua;
+   display: flex;
+   padding: 10px 30px;
+}
+.column-1,.column-2,.column-3{
+   width: 33.33%;
+   
+}
+.footer ul{
+   list-style-type: none;
+}
+.footer ul li{
+   padding: 1% 0;
+}
+.footer ul li a{
+   color: black;
+}
+
+/* 
+=========================================================
+Photo Gallery Design
+=========================================================
+ */
+.album{
+   position: absolute;
+   left: 15px;
+   height: 1024px;
+   width:1200px;
+   z-index: 99;
+}
+ .album img{
+   width: 37%;
+
+ }
+.img-1{
+   
+   z-index: 100;
+}
