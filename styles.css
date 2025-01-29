@@ -179,17 +179,8 @@ Photo Gallery Design
 =========================================================
  */
 .album{
-   position: absolute;
-   left: 15px;
-   height: 1024px;
-   width:1200px;
-   z-index: 99;
+   display: inline-block;
 }
  .album img{
    width: 37%;
-
  }
-.img-1{
-   
-   z-index: 100;
-}
